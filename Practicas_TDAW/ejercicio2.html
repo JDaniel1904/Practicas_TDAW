@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        header, footer { text-align: center; }
+        nav { margin: 10px 0; }
+        section { margin-bottom: 20px; }
+        .gallery img { width: 200px; margin: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a> | <a href="#galeria">Galería</a> | <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="presentacion">
+        <h2>Sobre mí</h2>
+         <img src="IMG_20220329_221934.jpg" alt="Foto de perfil" width="150" height="150"><p>Hola, soy Juan Daniel Garcia Roman alumno de la clase de Tecnologías para el Desarrollo de Aplicaciones Web.</p>
+        <ul>
+            <li>Interés en la IA</li>
+            <li>Interes en los videojuegos</li>
+            <li>Interes en la musica</li>
+        </ul>
+       
+    </section>
+    <section id="galeria">
+        <h2>Galería Multimedia</h2>
+        <figure>
+            <img src="DSC03907.JPG" alt="Mi foto" width="150" height="150">
+            <figcaption>Imagen 1</figcaption>
+        </figure>
+        <figure>
+            <img src="DSC03920.JPG" alt="Mi foto" width="150" height="150">
+            <figcaption>Imagen 2</figcaption>
+        </figure>
+        <figure>
+            <img src="DSC03937.JPG" alt="Mi foto" width="150" height="150">
+            <figcaption>Imagen 3</figcaption>
+        </figure>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Fo89b8zAIE4" title="Rusowsky: Tiny Desk Concert" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+             <audio controls>
+            <source src="EVERYBODY_OG_-_Y_Kanye_West_Ty_Dolla_ign.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </section>
+    <section id="contacto">
+        <h2>Formulario de Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje"></textarea><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </section>
+    <footer>
+        <p>Juan Daniel Garcia Roman - dandonado300@gmail.com - 2025</p>
+    </footer>
+</body>
+</html>
