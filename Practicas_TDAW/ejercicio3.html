@@ -39,6 +39,14 @@
             text-decoration: none;
             color: #333;
         }
+        figure {
+            display: inline-block;
+            text-align: center;
+        }
+        figcaption {
+            font-style: italic;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
@@ -46,20 +54,23 @@
     <header>
         <h1>Comparte tus viajes</h1>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Navegación</a>
-            <a href="#">Buscar</a>
+            <a href="#descripcion">Descripción</a>
+            <a href="#imagenes-relacionadas">Imágenes relacionadas</a>
+            <a href="#reseñas">Reseñas</a>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section id="descripcion">
             <h2>Nueva York - Central Park</h2>
             <p><strong>Descripción:</strong> Esta foto del Estanque del Conservatorio en Central Park en Ciudad de Nueva York fue tomada en Octubre 22, 2021 con una cámara Canon EOS 30D.</p>
-            <img src="lago.jpg" alt="Estanque del Conservatorio" width="400">
+            <figure>
+                <img src="lago.jpg" alt="Estanque del Conservatorio" width="400">
+                <figcaption>Estanque del Conservatorio</figcaption>
+            </figure>
         </section>
 
-        <section>
+        <section id="imagenes-relacionadas">
             <h3>Fotos relacionadas</h3>
             <div class="imagenes-relacionadas">
                 <img src="relacionada.jpg" alt="Foto relacionada 1">
@@ -70,14 +81,14 @@
 
         <section class="compartir">
             <h3>Compartir:</h3>
-            <a href="#">Enviar a alguien</a>
-            <a href="#">RSS</a>
-            <a href="#">Twitter</a>
-            <a href="#">Facebook</a>
-            <a href="#">Flickr</a>
+            <img src="email_16.png">
+            <img src="rss_16.png">
+            <img src="twitter_16.png">
+            <img src="facebook_16.png">
+            <img src="flickr_16.png">
         </section>
 
-        <section>
+        <section id="reseñas">
             <h3>Reseñas</h3>
             <div class="comentario">
                 <strong>Por Ricardo 15 Septiembre, 2021</strong>
